@@ -61,9 +61,10 @@ const Wrapper = styled.div`
 `;
 
 const CartButtons = () => {
+	const { closeSidebar } = useProductsContext();
 	return (
 		<Wrapper className='cart-btn-wrapper'>
-			<Link to='/cart' className='cart-btn'>
+			<Link to='/cart' className='cart-btn' onClick={closeSidebar}>
 				Cart
 				<span className='cart-container'>
 					<FaShoppingCart />
