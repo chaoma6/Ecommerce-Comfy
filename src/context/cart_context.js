@@ -28,6 +28,8 @@ export const CartProvider = ({ children }) => {
 		});
 	};
 
+	//
+
 	return (
 		<CartContext.Provider value={{ ...state, addToCart }}>
 			{children}
