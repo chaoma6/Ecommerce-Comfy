@@ -81,6 +81,7 @@ const SidebarContainer = styled.div`
 
 const Sidebar = () => {
 	const { isSidebarOpen, closeSidebar } = useProductsContext();
+	const { myUser } = useUserContext();
 	return (
 		<SidebarContainer>
 			<aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
@@ -101,11 +102,13 @@ const Sidebar = () => {
 							</li>
 						);
 					})}
-					<li>
-						<Link to='/checkout' onClick={closeSidebar}>
-							Checkout
-						</Link>
-					</li>
+					{myUser && (
+						<li>
+							<Link to='/checkout' onClick={closeSidebar}>
+								Checkout
+							</Link>
+						</li>
+					)}
 				</ul>
 				<CartButtons />
 			</aside>
