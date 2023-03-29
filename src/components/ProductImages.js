@@ -6,7 +6,7 @@ const ProductImages = ({ images = [{ url: '' }] }) => {
 
 	return (
 		<Wrapper>
-			<img src={main.url} alt='mainImage' className='main' />
+			<img src={main.url} alt='mainPicture' className='main' />
 			<div className='gallery'>
 				{images.map((image, index) => {
 					return (

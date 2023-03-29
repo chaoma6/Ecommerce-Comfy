@@ -1,4 +1,3 @@
-import { GiLetterBomb } from 'react-icons/gi';
 import {
 	ADD_TO_CART,
 	CLEAR_CART,
