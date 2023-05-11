@@ -15,11 +15,19 @@ const AboutPage = () => {
 						<div className='underline'></div>
 					</div>
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-						suscipit, ducimus, numquam alias iste quam mollitia ipsam sed
-						facilis, asperiores repellat excepturi quaerat accusantium et enim
-						debitis. Temporibus accusamus, quas suscipit hic enim magni
-						repellendus aut quasi molestiae et. Voluptatem!
+						At ComfySloth, our story began with a passion for creating
+						furniture that is both functional and stylish. With a focus on
+						quality and craftsmanship, we started by designing and
+						manufacturing furniture for local customers in our community. As
+						our reputation grew, so did our reach, and we soon expanded our
+						operations to serve customers nationwide. Today, we are proud to
+						offer a wide range of furniture styles that cater to the unique
+						needs of our customers, all while maintaining the same commitment
+						to quality and design that has been at the heart of our story
+						since the beginning. Whether you're looking to create a cozy
+						living space, a sophisticated bedroom, or an inviting outdoor
+						oasis, we have the perfect furniture pieces to help you bring your
+						vision to life.
 					</p>
 				</article>
 			</Wrapper>

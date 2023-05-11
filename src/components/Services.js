@@ -12,9 +12,8 @@ const Services = () => {
 						build only for you
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
-						accusantium nisi illo fugiat veniam labore culpa facilis saepe
-						officia. Illo!
+						Transform your home with our custom furniture design service -
+						create a space that's uniquely you.
 					</p>
 				</article>
 				<div className='services-center'>

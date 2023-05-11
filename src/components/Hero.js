@@ -13,9 +13,9 @@ const Hero = () => {
 					comfort zone
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-					provident asperiores quidem quod maiores voluptates dicta nemo
-					veritatis
+					Get inspired with our range of comfortable furniture and design a
+					space you'll love. Your ultimate comfort zone is waiting - create a
+					cozy and inviting living space today.
 				</p>
 				<Link to='/products' className='btn hero-btn'>
 					shop now
