@@ -14,7 +14,7 @@ Ecommerce-Comfy is an online e-commerce platform that provides users with a comf
 - User reviews and ratings: Read and submit reviews for products, helping other customers make informed decisions.
 
 ## Installation
--Clone the repository:
--Navigate to the project directory:
--Install the required dependencies:
--Start the application:
+- Clone the repository:
+- Navigate to the project directory:
+- Install the required dependencies:
+- Start the application:
